@@ -1,0 +1,50 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.ipynb_checkpoints/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# Local configuration and secrets (keep example files)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.python-version
+
+# IDE settings and temporary editor files
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and operating system files
+*.log
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
